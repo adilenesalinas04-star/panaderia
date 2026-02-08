@@ -14,7 +14,7 @@ const ProductList = () => {
     return (
         <section className="w-full max-w-7xl mx-auto px-8 py-16">
             <div className="flex justify-between items-center mb-10">
-                <h2 className="text-3xl md:text-4xl font-bold text-[var(--color-brand-brown)]">Most Loved</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-[var(--color-text-main)]">Most Loved</h2>
                 <a href="#" className="text-[var(--color-brand-accent)] font-semibold hover:underline">View all</a>
             </div>
 
@@ -50,10 +50,10 @@ const ProductList = () => {
                         </div>
 
                         <div className="flex flex-col gap-1 px-2">
-                            <h3 className="font-bold text-lg text-[var(--color-brand-brown)] leading-tight group-hover:text-[var(--color-brand-accent)] transition-colors">{product.name}</h3>
+                            <h3 className="font-bold text-lg text-[var(--color-text-main)] leading-tight group-hover:text-[var(--color-brand-accent)] transition-colors">{product.name}</h3>
                             <div className="flex justify-between items-center">
-                                <span className="text-[var(--color-brand-brown)] font-semibold">{product.price.split(' ')[0]}</span>
-                                <div className="flex items-center gap-1 text-yellow-400 bg-white px-2 py-0.5 rounded-full shadow-sm text-xs font-bold">
+                                <span className="text-[var(--color-text-main)] font-semibold">{product.price.split(' ')[0]}</span>
+                                <div className="flex items-center gap-1 text-yellow-400 bg-white/10 backdrop-blur-sm px-2 py-0.5 rounded-full shadow-sm text-xs font-bold">
                                     <Star size={12} fill="currentColor" />
                                     <span>{product.rating}</span>
                                 </div>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className="w-full bg-[var(--color-brand-brown)] text-[var(--color-brand-beige)] py-12 px-8 mt-20">
+        <footer className="w-full bg-black/20 text-[var(--color-brand-light-brown)] py-12 px-8 mt-20">
             <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
                 <div className="text-3xl font-bold tracking-tight">Cravory</div>
 

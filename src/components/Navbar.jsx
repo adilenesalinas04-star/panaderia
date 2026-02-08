@@ -5,12 +5,12 @@ const Navbar = () => {
     return (
         <nav className="flex items-center justify-between px-8 py-6 w-full max-w-7xl mx-auto">
             {/* Logo */}
-            <div className="text-3xl font-bold text-[var(--color-brand-brown)] tracking-tight">
+            <div className="text-3xl font-bold text-[var(--color-text-main)] tracking-tight">
                 Cravory
             </div>
 
             {/* Navigation Links */}
-            <div className="hidden md:flex items-center space-x-8 text-[var(--color-brand-brown)] font-medium">
+            <div className="hidden md:flex items-center space-x-8 text-[var(--color-text-main)] font-medium">
                 <a href="#" className="hover:text-[var(--color-brand-accent)] transition-colors">Home</a>
                 <a href="#" className="hover:text-[var(--color-brand-accent)] transition-colors">Categories</a>
                 <a href="#" className="hover:text-[var(--color-brand-accent)] transition-colors">About Us</a>
@@ -18,7 +18,7 @@ const Navbar = () => {
             </div>
 
             {/* Icons */}
-            <div className="flex items-center space-x-6 text-[var(--color-brand-brown)]">
+            <div className="flex items-center space-x-6 text-[var(--color-text-main)]">
                 <button className="hover:text-[var(--color-brand-accent)] transition-colors">
                     <Search size={20} />
                 </button>
